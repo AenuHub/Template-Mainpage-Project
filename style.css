@@ -95,6 +95,7 @@ h2 {
     justify-content: center;
     align-items: center;
     height: 12em;
+    padding-bottom: 4em;
 }
 
 .card-1,
@@ -126,4 +127,25 @@ h2 {
     flex-wrap: wrap;
     max-width: 200px;
     text-align: center;
+}
+
+.content-2 {
+    background-color: #E5E7EB;
+    padding: 2em 18em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.content-2-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.content-2-author {
+    font-weight: bold;
+    padding-top: 1em;
+    padding-left: 24em;
 }
