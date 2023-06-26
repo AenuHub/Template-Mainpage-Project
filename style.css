@@ -3,8 +3,10 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    padding: 2rem;
+    justify-content: space-evenly;
+    padding: 60px;
+    padding-top: 30px;
+    gap: 16rem;
 }
 
 .header-logo {
@@ -24,4 +26,47 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    margin: -4em 0;
+    gap: 1em;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 5%;
+    gap: 0.5em;
+    width: 500px;
+}
+
+.header-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.header-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 60%;
+}
+
+.header-btn {
+    background-color: #3882F6;
+    padding: 0.5em 2em;
+    border-radius: 0.75em;
+    color: #E5E7EB;
+    width: 120px;
+}
+
+.header-right {
+    background-color: #3882F6;
+    padding: 80px;
+    padding-right: 10;
+    margin-right: 4em;
 }
