@@ -64,7 +64,8 @@ a {
     color: #E5E7EB;
 }
 
-.header-btn {
+.header-btn,
+.content-3-btn {
     background-color: #3882F6;
     padding: 0.5em 2em;
     border-radius: 0.75em;
@@ -148,4 +149,32 @@ h2 {
     font-weight: bold;
     padding-top: 1em;
     padding-left: 24em;
+}
+
+.content-3-container {
+    background-color: #3882F6;
+    margin: 4em 18em;
+    border-radius: 10px;
+    height: 6em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-3-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.25em;
+    color: #E5E7EB;
+}
+
+.content-3-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content-3-right {
+    display: flex;
+    align-self: center;
 }
