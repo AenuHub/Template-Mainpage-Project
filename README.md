@@ -1,4 +1,4 @@
-# Template-Mainpage-Project
+# template-mainpage-project
 The Odin Project - Landing Page Project
 
 ### Info
