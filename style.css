@@ -158,6 +158,7 @@ h2 {
     height: 6em;
     display: flex;
     justify-content: space-around;
+    flex-shrink: 0;
 }
 
 .content-3-left {
@@ -177,6 +178,8 @@ h2 {
 .content-3-right {
     display: flex;
     align-self: center;
+    flex-shrink: 0;
+    width: 20%;
 }
 
 .footer {
